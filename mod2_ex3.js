@@ -9,9 +9,9 @@ for (let i = 0; i < 6; i++) {
     dogName.push(prompt(`Enter dog name:`));
 }
 
-dogNname.reverse();
+dogName.reverse();
 
 for (let i = 0; i < 6; i++) {
-    ul.innerHTML += `<li>${dogNname[i]}</li>`;
+    ul.innerHTML += `<li>${dogName[i]}</li>`;
 }
-document.body.appendChild(ul);
+document.body.appendChild(dogName);

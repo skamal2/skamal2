@@ -4,7 +4,7 @@ names of the participants on the web page in an ordered list (<ol>) in alphabeti
  */
 const numberOfParticipants = parseInt(prompt("Enter the number of participants. "))
 let lists =[];
-let orderedList = document.getElementById("li");
+let orderedList = document.getElementById("ol");
 for (let i=0; i<numberOfParticipants; i++) {
   lists[i] = prompt("Enter the name of participants. ")
   lists.sort()
@@ -13,7 +13,5 @@ for (let i=0; i<numberOfParticipants; i++) {
   console.log(lists)
 }
 document.body.appendChild(orderedList);
-
-
 
 
