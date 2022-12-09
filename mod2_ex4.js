@@ -12,7 +12,5 @@ while (user !== 0) {
 num.sort((a, b) => b - a);
 
 for (let i = 0; i < num.length; i++) {
-    console.log("The entered number from largest to smallest is: " + (num[i]));
+    document.write("The entered number from largest to smallest is: " + (num[i]));
 }
-
-
