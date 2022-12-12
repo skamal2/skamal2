@@ -2,8 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Excercise1</title>
+    <title>Module 4</title>
 </head>
 <body>
+<dialog>
+      <nav>
+        <h2 id="modalTitle"></h2>
+        <div id="closeModel">&#10005;</div>
+      </nav>
+      <iframe name="details" height="400" width="500" title="More details"></iframe>
+    </dialog>
+    <form action="https://api.tvmaze.com/search/shows?">
+      <input id="query" name="q" type="text" placeholder="Search" autocomplete="off" spellcheck="false">
+      <input id="submitbutton" type="submit" value="Search">
+    </form>
+    <div id="shows">
+      <p>No results</p>
+    </div>
+    <script src="ex1.js"></script>
+
 </body>
 </html>
